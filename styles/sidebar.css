@@ -1,0 +1,44 @@
+.sidebar_chan {
+  width: 5%;
+  height: 60%;
+  background-color: #847C89;
+  position: fixed;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  border-color: #EBFFC2;
+  color: #6FD7EA;
+  font-size: 15px;
+  margin-top: 5%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sidebar_chan>a {
+  display: block;
+  color: #6FD7EA;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.sidebar_chan:hover>a {
+  color: #6FD7EA;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.sidebar_chan>a:visited {
+  color: #6FD7EA;
+}
+
+.sidebar_chan:active>a {
+  color: #6FD7EA;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1600px){
+  .sidebar_chan{
+    display:none;
+  }
+}
